@@ -1,0 +1,61 @@
+.SubContainerTodo{
+    display: flex;
+    align-items: center;
+    margin-bottom: 4px;
+    padding: 0 10px;
+    max-width: 600px;
+    min-width: 300px;
+    position: relative;
+    border-radius: 4px;
+    
+    background: linear-gradient(to right, #9f9f9f 0, #fff 100%, #868686 100%);
+    /* transform: translate(-50%, -50%); */
+    animation: shine 1.4s infinite linear;
+    animation-fill-mode: forwards;
+}
+
+  @-moz-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @-webkit-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @-o-keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 180px;
+    }
+    100% {
+      background-position: 180px;
+    }
+  }
+  
